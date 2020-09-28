@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include <conio.h>
+#include <stdlib.h>
 int main()
 {
     char nombre[100];
-    usingned int edad;
+    int edad;
     printf("Hola mundo\n");
     printf("Nombre:");
     fgets(nombre, sizeof(nombre), stdin);
